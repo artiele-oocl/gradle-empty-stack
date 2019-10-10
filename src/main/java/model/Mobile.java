@@ -1,14 +1,14 @@
 package model;
 
-abstract class Mobile {
+public abstract class Mobile {
 
     private String name;
     private String color;
     private String brand;
     private String input;
 
-    public void call(String input) {
-        System.out.println("Message : "+input);
+    public String call(String input) {
+        return ("Message : "+input);
     }
     public String getName() {
         return name;

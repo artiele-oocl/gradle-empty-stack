@@ -5,7 +5,7 @@ public class IPhone extends Mobile {
         super();
     }
     @Override
-    public void call(String input) {
-        System.out.println("<iPhone>Message : "+input);
+    public String call(String input) {
+        return "<iPhone>"+super.call(input);
     }
 }
